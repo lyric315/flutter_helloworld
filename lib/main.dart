@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'RandomWordsState.dart';
+import 'CounterDisplay.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primaryColor: Colors.white,
       ),
-      home: new RandomWords(),
+      home: new Counter(),
     );
   }
 }

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
+/**
+ * 列表的demo
+ */
 class RandomWords extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
