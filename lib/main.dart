@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'RandomWordsState.dart';
 import 'CounterDisplay.dart';
+import 'CountHomePage.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(new CountHomeApp());
 
 class MyApp extends StatelessWidget {
   @override
