@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'RandomWordsState.dart';
-import 'CounterDisplay.dart';
-import 'CountHomePage.dart';
 
-void main() => runApp(new CountHomeApp());
+import 'channel/ChannelTestPage.dart';
+
+void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primaryColor: Colors.white,
       ),
-      home: new Counter(),
+      home: new BatteryChagePage(),
     );
   }
 }
