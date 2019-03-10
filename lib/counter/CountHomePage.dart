@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'NewRouter.dart';
+import 'package:flutter_helloworld/router/NewRouter.dart';
 
 class CountHomeApp extends StatelessWidget {
   @override
